@@ -1,4 +1,4 @@
-This portfolio was developed by me and I created inspired in any other projects I saw. it uses the following technologies: Next.js, Tailwind CSS, @emailjs/browser,
+This portfolio was developed by me, the design was inspired in many any other projects available on the internet. it uses the following technologies: Next.js, Tailwind CSS, @emailjs/browser,
 Swiper, Sonner, React Hook Form, Framer Motion, React Countup, TypeScript and Radix UI.
 
 ## Technologies Used
