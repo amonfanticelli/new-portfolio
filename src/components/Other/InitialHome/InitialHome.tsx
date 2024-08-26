@@ -5,7 +5,7 @@ import {
   RiTodoFill,
   RiArrowDownSLine,
   RiDownloadFill,
-  RiMailSendFill
+  RiMailSendFill,
 } from "react-icons/ri";
 
 import { Button } from "@/components/Other/UI/button";
@@ -14,11 +14,8 @@ import Badge from "@/components/Other/Bagde/Badge";
 import Socials from "@/components/Other/Socials/Socials";
 
 const InitialHome = () => {
-
   return (
-    <section
-      className="py-12 md:pt-24 xl:py-24 xl:pt-0 relative"
-    >
+    <section className="py-12 md:pt-24 xl:py-24 xl:pt-0 relative">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div
@@ -31,9 +28,10 @@ const InitialHome = () => {
             >
               Desenvolvedor Full Stack
             </div>
-            <h1 className="h1 mb-4">Olá, meu nome é Vagner Mengali</h1>
+            <h1 className="h1 mb-4">Olá, meu nome é Amon Fanticelli</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Desenvolvimento full stack com foco pronunciado e entusiasmo pela construção de soluções front-end poderosas.
+              Desenvolvimento full stack com foco pronunciado e entusiasmo pela
+              construção de soluções front-end poderosas.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
@@ -76,9 +74,12 @@ const InitialHome = () => {
               badgeText="Projetos Finalizados"
             />
 
-            <Badge containerStyles="absolute top-[55%] -right-8 animate-up-down-1"
-              icon={<RiTeamFill />} endCountNum={6}
-              badgeText="Clientes satisfeitos" />
+            <Badge
+              containerStyles="absolute top-[55%] -right-8 animate-up-down-1"
+              icon={<RiTeamFill />}
+              endCountNum={6}
+              badgeText="Clientes satisfeitos"
+            />
             <DevImg
               alt="initial image"
               priority

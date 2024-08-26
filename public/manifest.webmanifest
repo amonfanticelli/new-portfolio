@@ -1,8 +1,8 @@
 {
-  "name": "Portfolio | Vagner Mengali",
+  "name": "Portfolio | Amon Fanticelli",
   "short_name": "Portfolio",
-  "description": "Portfólio pessoal de Vagner Mengali, mostrando seu trabalho e experiência.",
-  "author": "Vagner Mengali",
+  "description": "Portfólio pessoal de Amon Fanticelli.",
+  "author": "Amon Fanticelli",
   "lang": "pt-BR",
   "theme_color": "#7a90ff",
   "background_color": "#090a1a",
@@ -49,12 +49,14 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://developer-blue-portfolio-vagnermengali.vercel.app/",
-      "id": "com.vagnermengali.portfolio"
+      "url": "https://portfolio-amon-fanticelli.vercel.app/",
+      "id": "com.amonfanticelli.portfolio"
     }
   ],
   "manifest_version": 3,
-  "permissions": ["notifications"],
+  "permissions": [
+    "notifications"
+  ],
   "offline_enabled": true,
   "routing": {
     "dynamic": true,
@@ -63,8 +65,8 @@
   "i18n": {
     "locales": {
       "en": {
-        "name": "Portfolio | Vagner Mengali",
-        "description": "Personal portfolio of Vagner Mengali, showcasing his work and experience."
+        "name": "Portfolio | Amon Fanticelli",
+        "description": "Personal portfolio of Amon Fanticelli, showcasing his work and experience."
       }
     },
     "default_locale": "pt-BR"
